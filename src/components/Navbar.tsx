@@ -32,7 +32,12 @@ const Navbar: React.FC = () => {
             <a href="#how-it-works" className="text-white hover:text-green-100 transition-colors">How Does it Works?</a>
             <a href="#pricing" className="text-white hover:text-green-100 transition-colors">Pricing</a>
             <a href="#faqs" className="text-white hover:text-green-100 transition-colors">FAQs</a>
-            <a href="#order" className="bg-amber-500 hover:bg-amber-600 text-white py-2 px-6 rounded-full font-medium transition-all transform hover:scale-105 flex items-center">
+            <a
+              href="https://cbcd94n-pog2jt0f2bl2vksk0o.hop.clickbank.net/?&tid=Wixlanding"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-amber-500 hover:bg-amber-600 text-white py-2 px-6 rounded-full font-medium transition-all transform hover:scale-105 flex items-center"
+            >
               <ShoppingCart size={18} className="mr-2" />
               Order Now
             </a>
@@ -80,8 +85,10 @@ const Navbar: React.FC = () => {
             >
               FAQs
             </a>
-            <a 
-              href="#order" 
+            <a
+              href="https://cbcd94n-pog2jt0f2bl2vksk0o.hop.clickbank.net/?&tid=Wixlanding"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block bg-amber-500 hover:bg-amber-600 text-white py-2 px-4 rounded-full font-medium transition-colors mt-3 text-center"
               onClick={() => setIsOpen(false)}
             >
