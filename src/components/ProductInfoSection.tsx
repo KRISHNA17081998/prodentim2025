@@ -41,7 +41,7 @@ const ProductInfoSection: React.FC = () => {
             
             <div className="mt-10 text-center">
               <a 
-                href="#order" 
+                href="https://cbcd94n-pog2jt0f2bl2vksk0o.hop.clickbank.net/?&tid=Wixlanding" 
                 className="inline-block bg-amber-500 hover:bg-amber-600 text-white py-3 px-8 rounded-full font-semibold text-lg transition-all transform hover:scale-105"
               >
                 Try ProDentim Today!

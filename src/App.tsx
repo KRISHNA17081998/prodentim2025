@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
@@ -13,6 +14,7 @@ import CTASection from './components/CTASection';
 import PaymentPage from './components/PaymentPage';
 import AdminPanel from './components/AdminPanel';
 import Footer from './components/Footer';
+import PrivacyPage from './components/PrivacyPage'; // <-- Import the Privacy Page
 
 function HomePage() {
   React.useEffect(() => {
@@ -45,6 +47,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/checkout" element={<PaymentPage />} />
         <Route path="/admin" element={<AdminPanel />} />
+        <Route path="/privacy" element={<PrivacyPage />} /> {/* New Privacy route */}
       </Routes>
     </Router>
   );
