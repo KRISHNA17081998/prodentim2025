@@ -1,3 +1,4 @@
+// src/App.tsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -14,7 +15,9 @@ import CTASection from './components/CTASection';
 import PaymentPage from './components/PaymentPage';
 import AdminPanel from './components/AdminPanel';
 import Footer from './components/Footer';
-import PrivacyPage from './components/PrivacyPage'; // <-- Import the Privacy Page
+import PrivacyPage from './components/PrivacyPage';
+import DisclaimerPage from './components/DisclaimerPage';
+import TermsPage from './components/TermsPage'; // Add this line
 
 function HomePage() {
   React.useEffect(() => {
@@ -47,7 +50,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/checkout" element={<PaymentPage />} />
         <Route path="/admin" element={<AdminPanel />} />
-        <Route path="/privacy" element={<PrivacyPage />} /> {/* New Privacy route */}
+        <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/disclaimer" element={<DisclaimerPage />} />
+        <Route path="/terms" element={<TermsPage />} /> {/* Add this line */}
       </Routes>
     </Router>
   );

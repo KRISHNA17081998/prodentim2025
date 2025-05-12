@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="text-center">
-            <p className="text-gray-400 mb-4">© Copyright 2024 ProDentim All Rights Reserved.</p>
+            <p className="text-gray-400 mb-4">© Copyright 2025 ProDentim All Rights Reserved.</p>
             <div className="flex justify-center space-x-4 text-sm">
               <Link to="/privacy" className="text-gray-300 hover:text-white hover:underline transition-colors">
                 Privacy Policy

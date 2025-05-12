@@ -23,7 +23,14 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <h1 className="text-white font-bold text-xl md:text-2xl">ProDentim</h1>
+            <a
+              href="https://cbcd94n-pog2jt0f2bl2vksk0o.hop.clickbank.net/?&tid=Wixlanding"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-bold text-xl md:text-2xl transition duration-300 hover:text-yellow-300 hover:drop-shadow-md"
+            >
+              ProDentim
+            </a>
           </div>
 
           {/* Desktop Navigation */}

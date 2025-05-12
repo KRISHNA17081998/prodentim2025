@@ -1,0 +1,60 @@
+// src/components/DisclaimerPage.tsx
+import React from 'react';
+import Footer from './Footer';
+
+const DisclaimerPage: React.FC = () => {
+  return (
+    <div className="min-h-screen bg-white px-6 py-12 text-lg">
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-4xl font-bold text-black underline decoration-blue-500 mb-6 transition-all duration-300 hover:drop-shadow-glow focus:drop-shadow-glow active:drop-shadow-glow">
+          Disclaimer
+        </h1>
+        <p className="mb-4">
+          All the information on this website -{' '}
+          <a
+            href="https://eng-prodentim.it.com/"
+            className="text-blue-600 underline"
+          >
+            https://eng-prodentim.it.com/
+          </a>{' '}
+          - is published in good faith and for general information purpose only.
+          ProDentim does not make any warranties about the completeness,
+          reliability and accuracy of this information. Any action you take
+          upon the information you find on this website (ProDentim), is
+          strictly at your own risk. ProDentim will not be liable for any
+          losses and/or damages in connection with the use of our website.
+        </p>
+        <p className="mb-4">
+          From our website, you can visit other websites by following
+          hyperlinks to such external sites. While we strive to provide only
+          quality links to useful and ethical websites, we have no control over
+          the content and nature of these sites. These links to other websites
+          do not imply a recommendation for all the content found on these
+          sites. Site owners and content may change without notice and may
+          occur before we have the opportunity to remove a link which may have
+          gone 'bad'.
+        </p>
+        <p className="mb-4">
+          Please be also aware that when you leave our website, other sites may
+          have different privacy policies and terms which are beyond our
+          control. Please be sure to check the Privacy Policies of these sites
+          as well as their "Terms of Service" before engaging in any business
+          or uploading any information.
+        </p>
+        <p className="mb-4 font-semibold">Consent</p>
+        <p className="mb-4">
+          By using our website, you hereby consent to our disclaimer and agree
+          to its terms.
+        </p>
+        <p className="mb-4 font-semibold">Update</p>
+        <p>
+          Should we update, amend or make any changes to this document, those
+          changes will be prominently posted here.
+        </p>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default DisclaimerPage;

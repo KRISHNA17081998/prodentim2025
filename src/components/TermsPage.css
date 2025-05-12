@@ -1,0 +1,31 @@
+/* src/components/TermsPage.css */
+
+.terms-heading {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  padding-bottom: 5px;
+}
+
+.terms-heading::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.terms-heading:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.terms-heading:active {
+  color: #ff0; /* Change to any color you want to indicate 'active' state */
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
