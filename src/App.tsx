@@ -21,8 +21,9 @@ import TermsPage from './components/TermsPage'; // Add this line
 
 function HomePage() {
   React.useEffect(() => {
-    document.title = 'ProDentim | Oral Health Probiotics';
-  }, []);
+  document.title = 'Prodentim: #1 Oral Probiotic Supplement | Official Website';
+}, []);
+
 
   return (
     <div className="min-h-screen bg-white">
